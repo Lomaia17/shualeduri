@@ -19,6 +19,11 @@ body{
 	padding-left: 25px;
 
 }
+.profile-icon { 
+	padding: 8px;
+	border: 1px solid #E7E7E7;
+	border-radius: 50%;
+}
 .search-bar{
 	width:446px;
 	height: 56px;
