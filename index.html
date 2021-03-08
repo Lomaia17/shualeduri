@@ -3,9 +3,12 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home</title>
+        <title>Home</title>
+
+        
 	</head>
 	<body>
 		<header>
@@ -130,7 +133,7 @@
 				</nav>
 			</div>
 		</header>
-		<!-- კატეგორიები -->
+		<!-- კატეგორიების სანავიგაციო -->
 		<div class="category-container container">
         <ul class="category">
             <li ><a href="#" class="active-li">All</a></li>
@@ -147,15 +150,15 @@
             </div>
            </li>
         </ul>
-
     </div>
+    <!-- კატეგორიების ჩამონათვალი -->
      <section class="sect-container">
         <div class="image-wrapper">
             <div class="image1">
                 <div class="image1-ext">
                     <img src="images/Component 10 – 1.svg" alt="" class="add">
                     <img src="images/Component 6 – 2.svg" alt="" class="fav">
-                    <img src="images/Rectangle 45.png" alt="image1"> 
+                    <img src="images/Rectangle 45.png" alt="image1" class="image1ext-image"> 
                 </div>
                 <p>UI Components for Unity Gaming</p>
             </div>
@@ -194,76 +197,218 @@
             </button>
         </div>
     </section>
-    <!-- დიზაინერები -->
-    <section class="designers container">
-        <div class="designers-wrapper">
-            <div class="text-wrap">
-                <h2 class="designers-text">Top Designers</h2>
-                <p>View All</p>
+    <!-- დიზაინერების კონტეინერი -->
+    <section style="width: 100%; display: flex;">
+
+        <!--  free container-->
+       <div class="free__container"></div>
+
+       <!--  designers container  -->
+
+       <div class="my__home__container">
+
+            <!--  designers text place  -->
+
+            <div class="text__wrap">
+
+                <h2 class="designers__text">Top Designers</h2>
+
+                <p class="my__designers__p">View All</p>
+
             </div>
-            <div class="persons">
-                <div class="person1">
-                    <img src="images/Rectangle 65.png" alt="Tran Mau">
-                    <p class="person-p">Tran Mau
-                    Tri Tam </p>
-                    <p>Sai Gon, Vietnam</p>
-                    <button class="btn-3 followed">Following</button>
+
+            <!--  designers  full - info  -->
+            <div class="my__persons_cont">
+                
+                <!--  first cont  for display block  -->
+                <div class="my__flex__cont">
+
+                    <!-- person 1  -->
+
+                    <div class="my__person">
+
+                        <!--  img  -->
+
+                        <img src="images/Rectangle 65.png" alt="Tran Mau">
+
+                        <!--  my  text  -->
+                        <p class="my__person__p">Tran MauTri Tam </p>
+                        <p class="my__person__p">Sai Gon, Vietnam</p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Following</button>
+                        
+                    </div>
+
+                    <!-- person 2  -->
                     
+                    <div class="my__person">
+
+                        <!--  img  -->
+
+                        <img src="images/Rectangle 66.png" alt="Zhenya">
+
+                        <!--  my  text  -->
+
+                        <p class="my__person__p"> Zhenya Rynzhuk </p>
+                        <p class="my__person__p">New York City, NY</p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Following</button>
+                        
+                    </div>
+
+                    <!-- person 3  -->
+                    
+                    <div class="my__person">
+
+                        <!--  img  -->
+
+                        <img src="images/Rectangle 67.png" alt="Tran Mau">
+                        
+                        <!--  my  text  -->
+                        <p class="my__person__p"> Sajon </p>
+                        <p class="my__person__p"> Earth</p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Following</button>
+                        
+                    </div>
+                    
+                    <!-- person 4  -->
+                    
+                    <div class="my__person">
+
+                        <!--  img  -->
+
+                        <img src="images/Rectangle 68.png" alt="Tran Mau">
+
+                        
+                        <!--  my  text  -->
+                        <p class="my__person__p"> Ryan Putnam </p>
+                        <p class="my__person__p"> Colorado Springs</p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Following</button>
+                        
+                    </div>
                 </div>
-                <div class="person1">
-                    <img src="images/Rectangle 66.png" alt="Zhenya
-                    Rynzhuk">
-                    <p class="person-p">Zhenya Rynzhuk</p>
-                    <p>New York City, NY</p>
-                    <button class="btn-3">Follow</button>
+
+                <!--  second  cont for display block -->
+
+                <div class="my__flex__cont for__top">
+                    
+                    <!-- person 5  -->
+                
+                    <div class="my__person">
+
+                        <!--  img  -->
+
+                        <img src="images/Rectangle 69.png" alt="Tran Mau">
+                        
+                        <!--  my  text  -->
+                        <p class="my__person__p"> hulam Rasool </p>
+                        <p class="my__person__p"> Dubai</p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Following</button>
+                        
+                    </div>
+                    
+                    <!-- person 6  -->
+                    
+                    <div class="my__person">
+
+                        <!--  img  -->
+
+                        <img src="images/Rectangle 70.png" alt="Tran Mau">
+                        
+                        <!--  my  text  -->
+                        <p class="my__person__p"> Ghani Pradita </p>
+                        <p class="my__person__p"> Yogykrta Indonesia</p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Following</button>
+                        
+                    </div>
+                    
+                    <!-- person 7  -->
+                    
+                    <div class="my__person">
+
+                        <!--  img  -->
+
+                        <img src="images/Rectangle 71.png" alt="Tran Mau">
+                        
+                        <!--  my  text  -->
+                        <p class="my__person__p"> David Kovalev </p>
+                        <p class="my__person__p"> Sarasota, FL </p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Following</button>
+                        
+                    </div>
+
+                    <!--  person 8  -->
+
+                    <div class="my__person">
+
+                        <!--  img  -->
+                        <img src="images/Rectangle 72.png" alt="Tran Mau">
+
+                        <!--  my  text  -->
+                        <p class="my__person__p">Dmitry Lauretsky</p>
+                        <p class="my__person__p">Omsk, Russia</p>
+
+                        <!--  button -->
+
+                        <button class="btn-3 followed">Follow</button>
+
+                    </div>
                 </div>
-                <div class="person1">
-                    <img src="images/Rectangle 67.png" alt="Tran Mau">
-                    <p class="person-p">Sajon</p>
-                    <p>Earth</p>
-                    <button class="btn-3 followed">Following</button>
-                </div>
-                <div class="person1">
-                    <img src="images/Rectangle 68.png" alt="Tran Mau">
-                    <p class="person-p">Ryan Putnam</p>
-                    <p>Colorado Springs</p>
-                    <button class="btn-3">Follow</button>
-                </div>
-                <div class="person1">
-                    <img src="images/Rectangle 69.png" alt="Tran Mau">
-                    <p class="person-p">Ghulam Rasool</p>
-                    <p>Dubai</p>
-                    <button class="btn-3">Follow</button>
-                </div>
-                <div class="person1">
-                    <img src="images/Rectangle 70.png" alt="Tran Mau">
-                    <p class="person-p">Ghani Pradita</p>
-                    <p>Yogykrta Indonesia</p>
-                    <button class="btn-3">Follow</button>
-                </div>
-                <div class="person1">
-                    <img src="images/Rectangle 71.png" alt="Tran Mau">
-                    <p class="person-p">David Kovalev</p>
-                    <p>Sarasota, FL</p>
-                    <button class="btn-3">Follow</button>
-                </div>
-                <div class="person1">
-                    <img src="images/Rectangle 72.png" alt="Tran Mau">
-                    <p class="person-p">Dmitry Lauretsky</p>
-                    <p>Omsk, Russia</p>
-                    <button class="btn-3">Follow</button>
-                </div>
+
             </div>
+            
         </div>
+
     </section>
+
+
+    <!--   footer container  -->
     <footer>
         <div class="list-container ">
             <table>
             <tr>
-                <th><a href="#">For Designers</a></th>
-                <th><a href="#">Hire Designers</a></th>
-                <th><a href="#">Company</a></th>
-                <th><a href="#">Dictionaries</a></th>
+                <th>
+                    <div class="th-wrapper flex">
+                        <a href="#">For Designers</a>
+                        <img src="images/angle.png" alt="angle down" class="arrow">
+                    </div>
+                </th>
+                <th> <div class="th-wrapper flex">
+                    <a href="#">Hire Designers</a>
+                    <img src="images/angle.png" alt="angle down" class="arrow">
+                </div>
+                </th>
+                <th> 
+                    <div class="th-wrapper flex">
+                        <a href="#">Company</a>
+                        <img src="images/angle.png" alt="angle down" class="arrow">
+                    </div>
+                </th>
+                <th><div class="th-wrapper flex">
+                    <a href="#">Dictionaries</a>
+                    <img src="images/angle.png" alt="angle down" class="arrow">
+                    </div>
+                </th>
+
             </tr>
             <tr>
                 <td><a href="#">Go Pro!</a></td>
@@ -321,6 +466,7 @@
             </tr>
         </table>
         </div>
+        <!-- ფუტერის ტექსტი -->
         <div class="footer-wrapper">
         <div class="icons">
             <a href="https://www.facebook.com/" target="_blank">
