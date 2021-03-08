@@ -265,6 +265,7 @@ body{
 	margin-top: 100px;
 	background-color: #FAFAFA;
 	padding-bottom:60px;
+	max-width: 100%;
 }
 .designers-wrapper {
 	margin-left: 500px;
@@ -432,6 +433,9 @@ body{
 .pink td{
 	color: #FF2288
 }
+.column1{
+
+}
 @media screen and (max-width: 1919px) {
 	.persons{
 		justify-content: flex-start;
@@ -483,6 +487,11 @@ body{
 	.image1-ext{
 		display: flex;
 		flex-basis: 100%;
+	}
+	.designers {
+		width: 100vw !important;
+		padding: 0;
+		margin: 0 auto;
 	}
 }
 
@@ -716,6 +725,10 @@ body{
 	}
 	.category-container {
 		margin-left:25px;
+		width: 100%;
+	}
+	.category {
+		width: 100%;;
 	}
 	.sect-container {
 		margin-left: 0;
@@ -726,4 +739,7 @@ body{
 	.category {
 	flex-wrap: wrap;
 }
+	.icons{
+		margin:0;
+	}
 }
