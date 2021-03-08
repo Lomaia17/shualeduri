@@ -328,6 +328,61 @@ body{
 	        transform: 2s;
 }
 
+
+.free__container{
+	width: 25%;
+}
+
+.my__home__container{
+	width: 75%;
+	display: block;
+	margin-top: 50px;
+}
+.text__wrap{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.designers__text{
+	font-family: 'Metropolis Semi';
+font-size: 14px;
+cursor: pointer;
+}
+
+.my__designers__p{
+	font-family: 'Metropolis Semi';
+font-size: 14px;
+cursor: pointer;
+}
+
+.my__person{
+	margin-left: 25px;
+}
+.my__person__p{
+	font-size: 16px;
+	font-family: 'Metropolis Normal';
+	line-height: 21px;
+	color: #707070;
+}
+
+.my__persons_cont{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	margin-top: 100px;
+}
+
+.my__flex__cont{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+
 .designers {
 	margin-top: 100px;
 	
@@ -1114,61 +1169,6 @@ body{
 		display: inline-block;
 	}
 }
-
-
-.free__container{
-	width: 25%;
-}
-
-.my__home__container{
-	width: 75%;
-	display: block;
-	margin-top: 50px;
-}
-.text__wrap{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-}
-.designers__text{
-	font-family: 'Metropolis Semi';
-font-size: 14px;
-cursor: pointer;
-}
-
-.my__designers__p{
-	font-family: 'Metropolis Semi';
-font-size: 14px;
-cursor: pointer;
-}
-
-.my__person{
-	margin-left: 25px;
-}
-.my__person__p{
-	font-size: 16px;
-	font-family: 'Metropolis Normal';
-	line-height: 21px;
-	color: #707070;
-}
-
-.my__persons_cont{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	margin-top: 100px;
-}
-
-.my__flex__cont{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-
 
 @media (max-width:1650px){
 	.my__persons_cont{
